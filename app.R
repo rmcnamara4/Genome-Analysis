@@ -184,7 +184,7 @@ ui <- fluidPage(
         selectInput(
           inputId = "aa_variables", 
           label = "Choose which variables to plot:",
-          choices = ordered_aa_human, 
+          choices = ordered_aa, 
           multiple = TRUE
         )
       ),
